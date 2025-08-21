@@ -124,7 +124,7 @@ const ProgramPage: React.FC = () => {
       <ProgramTabs tabs={tabs} active={active} onChange={setActive} />
 
       {/* Content */}
-      <div className="mx-auto max-w-[1280px] px-4 py-6">
+      <div className="mx-auto max-w px-4 py-6">
 
 
         {active === 'overview' ? (
