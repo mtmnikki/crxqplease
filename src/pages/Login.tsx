@@ -207,7 +207,7 @@ const LoginPage: React.FC = () => {
 
             <div className="mt-6 flex items-center gap-2 text-sm">
               <ShieldCheck className="h-4 w-4" />
-              HIPAA-aligned. Updated monthly.
+              Team-Based Care. Patient-Centered Workflows.
             </div>
           </div>
         </div>
