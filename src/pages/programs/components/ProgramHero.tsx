@@ -22,7 +22,7 @@ interface ProgramHeroProps {
 const ProgramHero: React.FC<ProgramHeroProps> = ({ title, subtitle, extra }) => {
   return (
     <section className="relative w-full overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-500 via-cyan-300 to-teal-200" />
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-700 via-cyan-500 to-teal-740" />
       <div className="relative z-10 mx-auto w-full px-4 py-10">
         <div className="mx-auto max-w-3xl rounded-2xl border border-white/20 bg-white/10 p-6 text-white backdrop-blur-md shadow-2xl">
           <h1 className="text-2xl md:text-3xl font-semibold">{title}</h1>
