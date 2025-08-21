@@ -23,7 +23,7 @@ const ProgramHero: React.FC<ProgramHeroProps> = ({ title, subtitle, extra }) => 
   return (
     <section className="relative w-full overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-700 via-cyan-600 to-teal-500" />
-      <div className="relative z-10 mx-auto max-w-[1280px] px-4 py-10">
+      <div className="relative z-10 mx-auto max-w px-4 py-10">
         <div className="mx-auto max-w-3xl rounded-2xl border border-white/20 bg-white/10 p-6 text-white backdrop-blur-md shadow-2xl">
           <h1 className="text-2xl md:text-3xl font-semibold">{title}</h1>
           {subtitle ? (
